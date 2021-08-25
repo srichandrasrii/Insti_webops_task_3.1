@@ -1,0 +1,224 @@
+.logo {
+  width: 12vmax;
+}
+
+.nav-item {
+  font-size: 1.3vmax;
+  font-family: "Barlow", sans-serif;
+  margin-left: 2vmax;
+}
+
+#contact {
+  font-family: 'Fraunces', serif;
+}
+
+.bg-1 {
+  background-image: url(../images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 55vmax;
+}
+
+.row {
+  margin: 0;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10vh;
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  color: white;
+  font-weight: 900;
+  font-size: 4vmax;
+  letter-spacing: 1.5vh;
+  text-align: center;
+}
+
+.arrow {
+  width: 3vmax;
+}
+
+.content {
+  width: 67%;
+  font-family: "Barlow", sans-serif;
+  color: #818498;
+  font-size: 1.25vmax;
+  font-weight: 600;
+}
+
+.contentHead {
+  color: #212529;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 3vmax;
+}
+
+.learnMore {
+  color: #212529;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+}
+
+.image-transform {
+  width: 100%;
+  background-size: cover;
+}
+
+.image-stand-out {
+  width: 100%;
+}
+
+.graphic {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+}
+
+.photography {
+  background-image: url(../images/desktop/image-photography.jpg);
+}
+
+.graphic, .photography {
+  background-size: cover;
+  text-align: center;
+  height: 41vmax;
+  position: relative;
+  padding-top: 26vmax;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.graphic-text, .photography-text {
+  width: 50%;
+}
+
+.graphic-head {
+  color: #25564b;
+  font-family: 'Fraunces', serif;
+  font-size: 2vmax;
+}
+
+.photography-head {
+  color: #19536b;
+  font-family: 'Fraunces', serif;
+  font-size: 2vmax;
+}
+
+.graphic-info {
+  color: #25564b;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1vmax;
+}
+
+.photography-info {
+  color: #19536b;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1vmax;
+}
+
+.testimonials {
+  padding-top: 8vw;
+  padding-bottom: 8vw;
+}
+
+#testimonials-flex {
+  padding-left: 6vmax;
+  padding-right: 6vmax;
+}
+
+.Client-testimonials {
+  padding-bottom: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #a7abae;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  letter-spacing: .5vmax;
+}
+
+.person {
+  border-radius: 50%;
+  display: block;
+  width: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vmax;
+}
+
+.client-description {
+  padding-top: 1em;
+  text-align: center;
+  color: #5a636c;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.3vmax;
+}
+
+.client-details {
+  text-align: center;
+}
+
+.client-name {
+  color: #23303e;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 1.2vmax;
+}
+
+.client-job {
+  color: #a7abae;
+  font-family: "Barlow", sans-serif;
+}
+
+#footer-id {
+  background-color: #91d3c5;
+}
+
+.footer-heading {
+  text-align: center;
+  color: #458c7e;
+}
+
+.logo-svg {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.footer-menu {
+  font-family: "Barlow", sans-serif;
+  color: #458c7e;
+}
+
+@media screen and (max-width: 770px) {
+  .bg-1 {
+    background-image: url(../images/mobile/image-header.jpg);
+    height: 70vmax;
+  }
+  .graphic-text, .photography-text {
+    width: 85%;
+    font-size: 1.5vmax;
+  }
+  .content {
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
